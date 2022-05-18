@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(https://img.freepik.com/foto-gratis/representacion-fondo-futurista-abstracto-brillantes-luces-neon-azul-naranja_181624-19807.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Comfortaa';
+}
+
+header div img
+{
+    height: auto;
+    padding-bottom: -10px;
+}
+
+header, .main, footer
+{
+    background: rgb(149, 149, 149);
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+header nav
+{
+    background: #592792;
+    overflow: hidden;
+    border: 3px solid #D57500;
+    border-radius: 20px;
+;
+}
+
+header nav ul
+{
+    list-style: none;
+}
+
+header nav ul li
+{
+    display: i;
+    float: left;
+}
+
+header nav ul li a
+{
+    padding: 15px 40.2px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover
+{
+    background: #D57500;
+}
+
+.main .articles
+{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    margin-top: 0px;
+    color: white;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+.main .articles .titulo1
+{
+    color: rgb(251, 255, 0);
+    font-size: 55px;
+}
+
+.main .articles .titulo2
+{
+    font-size: 25px;
+}
+
+.main .articles article
+{
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #212F3D;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+.main .articles1 .titulo3
+{
+    font-size: 25px;
+}
+
+aside
+{
+    width: 30%;
+    background: #7B241C;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid #D57500;
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.main .video h2
+{
+    background-color: #212F3D;
+    width: 1000px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+.main .video iframe
+{
+    width: 1000px;
+    height: 700px;
+    padding-bottom: 20px
+}
+
+.main .map h2
+{
+    background-color: #212F3D;
+    width: 1000px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+.main .map iframe
+{
+    width: 146%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+
+.redes
+{
+    width: 1000px;
+    background-color: #212F3D;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+marquee
+{
+    width: 146%;
+    margin-bottom: 20px;
+}
+
+
+footer
+{
+    border-radius: 20px;
+    background: #7B241C;
+    color: #fff;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #D57500;
+    opacity: 0.9;
+}
+
+@media screen and (max-width:760px)
+{
+    header .menu
+    {
+        justify-content: center;
+    }
+}
